@@ -64,4 +64,3 @@ pub mod icu_provider_baked {
 
 pub struct Baked;
 
-impl_units_display_name_v1_marker!(Baked);
