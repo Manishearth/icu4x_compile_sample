@@ -3,16 +3,5 @@
 version = 3
 
 [[package]]
-name = "demo"
-version = "0.1.0"
-dependencies = [
- "icu_experimental_data",
-]
-
-[[package]]
 name = "demo2"
-version = "0.1.0"
-
-[[package]]
-name = "icu_experimental_data"
 version = "0.1.0"
