@@ -10,5 +10,9 @@ dependencies = [
 ]
 
 [[package]]
+name = "demo2"
+version = "0.1.0"
+
+[[package]]
 name = "icu_experimental_data"
 version = "0.1.0"

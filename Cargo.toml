@@ -1,5 +1,5 @@
 [workspace]
 members = [
-	"demo",
+	"demo", "demo2",
     "experimental_data",
 ]
