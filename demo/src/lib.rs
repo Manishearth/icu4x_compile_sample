@@ -64,4 +64,11 @@ pub mod icu_provider_baked {
 
 pub struct Baked;
 
+use icu::experimental::dimension::provider::units::UnitsDisplayNameV1;
+use icu::experimental::relativetime::provider::PluralPatterns;
+use icu::plurals::provider::PluralElementsPackedCow;
+use alloc::borrow::Cow::Borrowed;
+use icu::plurals::provider::PluralElementsPackedULE;
+use core::marker::PhantomData;
+
 impl_units_display_name_v1_marker!(Baked);
